@@ -9,7 +9,7 @@
     android:layout_marginEnd="30dp"
     android:paddingTop="30dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Counter">
 
         <Button
             android:id="@+id/btn_toast"
