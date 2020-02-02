@@ -1,0 +1,55 @@
+DAY 1
+Pengantar
+- pengertian android (pre-reqiretments)
+- MEMBUAT dan menjalankan projek utama
+- Struktur project (bila memungkinkan ya di contohna)
+- Jelasin View + java sedikit (Gambaran
+
+#Materi
+Layout
+- Linear
+- Relative
+- Contoh layout lainya (speak aja)
+
+View
+- Button
+- TextView
+- Radio Button
+- CheckBox
+- ImageView
+- ScrollView
+
+Activity 
+- contohin buat activity, 
+- pindah activity
+- finish()
+- Lifecycle (penjelasan)
+- Event listener (fokus ke onclick saja)
+
+Intent
+- intent pindah activity + tanpa dan kirim data
+- contohin activity 123 yang finish sama yang engga
+
+==============================================================================
+DAY-2
+
+Activity Pendaftaran
+- Buat activity + layout statis
+- Hubungkan ke Java nya (findViewById + actionnya)
+- Di toast semua inputan
+
+Activity Login
+- Buat activity + layout statis
+- Hubungkan ke Java nya (findViewById + actionnya)
+
+Activity Utama
+- Semua Layout + view di kombinasikan
+- buat tampilan yang menarik
+
+Activity Detail
+- Semua Layout + view di kombinasikan
+- buat tampilan yang menarik
+
+
+
+
