@@ -26,17 +26,20 @@
                 android:text="Isi Data Untuk Mendaftar"/>
 
             <EditText
+                android:id="@+id/et_nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:hint="Nama"
                 />
             <EditText
+                android:id="@+id/et_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:hint="Username"/>
             <EditText
+                android:id="@+id/et_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -46,15 +49,18 @@
                 android:layout_height="wrap_content"
                 android:text="Jenis Kelamin"/>
             <RadioGroup
+                android:id="@+id/rg_jk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="50dp"
                 android:orientation="horizontal">
                 <RadioButton
+                    android:id="@+id/rb_laki"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Laki-Laki"/>
                 <RadioButton
+                    android:id="@+id/rb_rp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Perempuan"/>
@@ -66,12 +72,14 @@
                 android:layout_marginBottom="5dp"
                 >
                 <CheckBox
+                    android:id="@+id/cb_setuju"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Dengan meng-klik daftar saya patuh dengan Kebijakan privasi dan Ketentuan layanan"/>
             </LinearLayout>
-            <Button
+            <Buttond
+                android:id="@+id/btn_daftar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="DAFTAR"
