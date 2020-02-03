@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginStart="@dimen/margin_kiri"
-    android:layout_marginEnd="@dimen/margin_kanan"
+    android:paddingStart="@dimen/margin_kiri"
+    android:paddingEnd="@dimen/margin_kanan"
     android:background="@color/putih"
     tools:context=".Login">
 <ScrollView
@@ -15,16 +15,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:background="@color/putih"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"/>
         <ImageView
             android:id="@+id/l_parent"
             android:layout_width="wrap_content"
             android:layout_height="300dp"
+            android:layout_marginBottom="60dp"
             android:src="@drawable/undraw_mobile"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="@color/putih"/>
+
         <LinearLayout
             android:id="@+id/l_bottom"
             android:layout_alignParentBottom="true"
