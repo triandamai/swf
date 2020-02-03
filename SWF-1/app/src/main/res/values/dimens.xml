@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="textsize_count">70sp</dimen>
+    <dimen name="margin_kiri">30dp</dimen>
+    <dimen name="margin_kanan">30dp</dimen>
 </resources>
